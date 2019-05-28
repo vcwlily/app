@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.css" rel="stylesheet" />
+		<script src="js/mui.js"></script>
+		<!-- 引入自定义图标js文件 -->
+		<script src="js/iconfont.js"></script>
+		<script type="text/javascript">
+			mui.init();
+		</script>
+		<!-- 内嵌样式 -->
+		<style type="text/css">
+			.yuyue {
+				line-height: 44px;
+				color: black;
+				font-size: 14px;
+			}
+			/*自定义图标样式 */
+			.icon {
+				width: 1em;
+				height: 1em;
+				vertical-align: -0.15em;
+				fill: currentColor;
+				overflow: hidden;
+				font-size:28px;
+			}
+			.icon_font{
+				font-size: 28px;
+				color:red;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!-- 顶部标题栏 -->
+		<header class="mui-bar mui-bar-nav">
+			<!-- 搜索框 -->
+			<div class="mui-input-row mui-search" style="float:left;width:90%;">
+				<input type="search" class="mui-input-clear" placeholder="请输入搜索内容">
+			</div>
+			<a class="mui-pull-right yuyue">预约</a>
+		</header>
+		<!-- 主体部分 -->
+		<div class="mui-content">
+			<!-- 轮播图 -->
+			<div id="slider" class="mui-slider">
+				<div class="mui-slider-group mui-slider-loop">
+					<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="imgs/lb4.jpg">
+						</a>
+					</div>
+					<!-- 第一张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="imgs/lb1.jpg">
+						</a>
+					</div>
+					<!-- 第二张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="imgs/lb2.jpg">
+						</a>
+					</div>
+					<!-- 第三张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="imgs/lb3.jpg">
+						</a>
+					</div>
+					<!-- 第四张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="imgs/lb4.jpg">
+						</a>
+					</div>
+					<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="imgs/lb1.jpg">
+						</a>
+					</div>
+				</div>
+				<div class="mui-slider-indicator">
+					<div class="mui-indicator mui-active"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+				</div>
+			</div>
+			<!-- 九宫格 -->
+			<ul class="mui-table-view mui-grid-view mui-grid-9" style="background: white;">
+				<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+					<a href="#" class="icon_font">
+						<span class="mui-icon">
+							<svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-xiangji"></use>
+							</svg>
+						</span>
+						<div class="mui-media-body icon_font">婚纱拍摄</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+					<a href="#" class="icon_font">
+						<span class="mui-icon">
+							<svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-feiji"></use>
+							</svg>
+						</span>
+						<div class="mui-media-body">全球旅拍</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+					<a href="#" class="icon_font">
+						<span class="mui-icon">
+							<svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-jiubei"></use>
+							</svg>
+						</span>
+						<div class="mui-media-body">婚宴酒店</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+					<a href="#" class="icon_font">
+						<span class="mui-icon">
+							<svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-meihua"></use>
+							</svg>
+						</span>
+						<div class="mui-media-body">婚礼服务</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+					<a href="#" class="icon_font">
+						<span class="mui-icon">
+							<svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-tubiaozhizuomoban-"></use>
+							</svg>
+						</span>
+						<div class="mui-media-body">婚礼拍摄</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+					<a href="#" class="icon_font">
+						<span class="mui-icon">
+							<svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-shu"></use>
+							</svg>
+						</span>
+						<div class="mui-media-body">婚纱百科</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+					<a href="#" class="icon_font">
+						<span class="mui-icon">
+							<svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-kechengguwen"></use>
+							</svg>
+						</span>
+						<div class="mui-media-body">婚礼顾问</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+					<a href="#" class="icon_font">
+						<span class="mui-icon">
+							<svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-renqun"></use>
+							</svg>
+						</span>
+						<div class="mui-media-body">新人说</div>
+					</a>
+				</li>
+			</ul>
+
+		</div>
+	</body>
+	<!-- 内嵌js代码 -->
+	<script type="text/javascript">
+		//获取轮播组件对象
+		var slider = mui("#slider");
+		//调用定时函数,进行指定时间内更换图片
+		slider.slider({
+			interval: 1000
+		});
+	</script>
+</html>
